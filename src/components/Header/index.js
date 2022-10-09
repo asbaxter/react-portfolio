@@ -9,8 +9,8 @@ export default function Header(props){
     } = props;
 
     return (
-        <div>
-            <a href="/">Andrew Baxter</a>
+        <header>
+            <a href="/" id="header-title">Andrew Baxter</a>
             <nav>
             <ul>
                 <li>
@@ -27,6 +27,6 @@ export default function Header(props){
                 </li>
             </ul>
         </nav>
-        </div>
+        </header>
     )
 }

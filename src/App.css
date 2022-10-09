@@ -1,0 +1,85 @@
+:root {
+  --color1: #F39237;
+  --color2: #E5E6E4;
+  --color3: #36393B;
+}
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+body{
+  background-color: var(--color2);
+}
+
+/* ------------------ Navbar ------------------ */ 
+header {
+    background-color: var(--color3);
+    color: var(--color2);
+    font-size: x-large;
+    border-bottom: solid 3px var(--color1);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+#header-title{
+  font-size: xx-large;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+nav ul a {
+  margin-left: 100px;
+}
+
+/* ------------------ About ------------------ */ 
+#about{
+  text-align: center;
+  color: var(--color3);
+  margin-top: 10%;
+}
+#about h1{
+    border-bottom: solid 1px var(--color1);
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+    padding: 5px;
+    font-size: xx-large;
+}
+#about img{
+  height: 200px;
+  margin-top: 1%;
+  border-radius: 50%;
+}
+#about p {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  margin-top: 15px;
+}
+
+/* ------------------ Projects ------------------ */ 
+
+
+
+/* ------------------ Footer ------------------ */ 
+
+footer{
+  background-color: var(--color3);
+  color: var(--color2);
+  padding: 15px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  font-size: small;
+  border-top: solid 3px var(--color1);
+}
