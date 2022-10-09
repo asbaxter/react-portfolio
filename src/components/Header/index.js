@@ -4,7 +4,8 @@ export default function Header(props){
     const {
         setIsAbout,
         setIsProjects,
-        setIsContact
+        setIsContact,
+        setIsResume
     } = props;
 
     return (
@@ -13,16 +14,16 @@ export default function Header(props){
             <nav>
             <ul>
                 <li>
-                    <a href="#about" onClick={() => {setIsProjects(false); setIsAbout(true); setIsContact(false)}}>About Me</a>
+                    <a href="#about" onClick={() => {setIsProjects(false); setIsAbout(true); setIsContact(false); setIsResume(false)}}>About Me</a>
                 </li>
                 <li>
-                    <a href="#portfolio" onClick={() => {setIsProjects(true); setIsAbout(false); setIsContact(false)}}>Portfolio</a>
+                    <a href="#portfolio" onClick={() => {setIsProjects(true); setIsAbout(false); setIsContact(false); setIsResume(false)}}>Portfolio</a>
                 </li>
                 <li>
-                    <a href="#about" onClick={() => {setIsProjects(false); setIsAbout(false); setIsContact(true)}}>Contact</a>
+                    <a href="#about" onClick={() => {setIsProjects(false); setIsAbout(false); setIsContact(true); setIsResume(false)}}>Contact</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="#resume" onClick={() => {setIsProjects(false); setIsAbout(false); setIsContact(false); setIsResume(true)}}>Resume</a>
                 </li>
             </ul>
         </nav>
