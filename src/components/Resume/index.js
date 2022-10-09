@@ -14,10 +14,10 @@ export default function Resume(){
         })
     }
     return (
-        <section>
-            <h2>Resume & Skills</h2>
+        <section id="resume">
+            <h1>Resume & Skills</h1>
             <button onClick={downloadPDF}>Download Resume</button>
-            <h3>Front-End Skills</h3>
+            <h2>Front-End Skills</h2>
             <ul>
                 <li>React</li>
                 <li>HTML</li>
@@ -26,7 +26,7 @@ export default function Resume(){
                 <li>Materialize</li>
                 <li>Handlerbars</li>
             </ul>
-            <h3>Back-End Skills</h3>
+            <h2>Back-End Skills</h2>
             <ul>
                 <li>JavaScript</li>
                 <li>MySQL</li>
