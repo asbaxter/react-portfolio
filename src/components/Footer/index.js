@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer(){
     return (
         <footer>
-            <p> 317-446-1938 | asbaxter1@gmail.com | https://github.com/asbaxter.com</p>
+            <p><a href="https://github.com/asbaxter">GitHub</a> | <a href="https://www.linkedin.com/in/andrew-baxter-78575a235">LinkedIn</a></p>
             <p>&copy; 2022 Andrew Baxter</p>
         </footer>
     )
