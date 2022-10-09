@@ -8,7 +8,7 @@ import project6 from '../../assets/weather-flow-screenshot.png';
 
 export default function Projects(){
     return (
-        <nav>
+        <section id="projects">
             <h1>Projects</h1>
             <ul>
                 <li>
@@ -48,6 +48,6 @@ export default function Projects(){
                     <a href="https://github.com/asbaxter/Spotify-Weather-App">GitHub</a>
                 </li>
             </ul>
-        </nav>
+        </section>
     )
 }

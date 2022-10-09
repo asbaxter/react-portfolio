@@ -65,7 +65,46 @@ nav ul a {
 }
 
 /* ------------------ Projects ------------------ */ 
+#projects{
+  text-align: center;
+  color: var(--color3);
+}
+#projects h1{
+  border-bottom: solid 1px var(--color1);
+  max-width: 300px;
+  margin: auto;
+  position: relative;
+  padding: 5px;
+  font-size: xx-large;
+}
+#projects a{
+  padding: 40px;
+  text-decoration: underline;
+}
 
+#projects ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+#projects h2{
+  border-bottom: solid 1px var(--color1);
+  margin-bottom: 2%;
+}
+#projects ul li{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+#projects img {
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+  display: block;
+}
+/* ------------------ Contact ------------------ */ 
 
 
 /* ------------------ Footer ------------------ */ 
