@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6dae74b4.css",
+    "main.js": "/react-portfolio/static/js/main.93a5904e.js",
+    "static/media/weather-flow-screenshot.png": "/react-portfolio/static/media/weather-flow-screenshot.28f9cff242b42968b6a1.png",
+    "static/media/keyboard-hero-screenshot.png": "/react-portfolio/static/media/keyboard-hero-screenshot.832a1c80baeb64de79b5.png",
+    "static/media/nighthawk-screenshot.png": "/react-portfolio/static/media/nighthawk-screenshot.cf8fd2e2c06266b450c8.png",
+    "static/media/portfolio-screenshot.png": "/react-portfolio/static/media/portfolio-screenshot.cfd6a67cce95ad67c196.png",
+    "static/media/team-manager-screenshot.png": "/react-portfolio/static/media/team-manager-screenshot.27dab8c939d247200ac5.png",
+    "static/media/employee-tracker-screenshot.png": "/react-portfolio/static/media/employee-tracker-screenshot.5e7710a7d23590741705.png",
+    "static/media/avatar-placeholder.png": "/react-portfolio/static/media/avatar-placeholder.a407c17424c4f724e0db.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.6dae74b4.css.map": "/react-portfolio/static/css/main.6dae74b4.css.map",
+    "main.93a5904e.js.map": "/react-portfolio/static/js/main.93a5904e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dae74b4.css",
+    "static/js/main.93a5904e.js"
+  ]
+}
