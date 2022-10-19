@@ -2,6 +2,8 @@
 
 ![Screenshot of Application](./src/assets/react-portfolio-screenshot.png)
 
+[Live Site](https://asbaxter.github.io/react-portfolio/)
+
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications</br>
 I WANT to view a potential employee's deployed React portfolio of work samples</br>
